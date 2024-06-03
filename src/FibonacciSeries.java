@@ -7,6 +7,7 @@ public class FibonacciSeries {
         System.out.println("Enter the value of a and b: ");
         int a = sc.nextInt();
         int b = sc.nextInt();
+        System.out.println("Enter the n value: ");
         System.out.println(a +"  "+ b);
 
         for(int i = 3; i<=10; i++){
