@@ -9,8 +9,10 @@ public class FibonacciSeries {
         int b = sc.nextInt();
         System.out.println("Enter the n value: ");
         System.out.println(a +"  "+ b);
+        System.out.println("\n\n");
+        System.out.print(a +"  "+ b + " ");
 
-        for(int i = 3; i<=10; i++){
+        for(int i = 0; i<=7; i++){
             int c = a + b;
             System.out.print(" " + c + " ");
             a = b;
