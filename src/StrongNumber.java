@@ -17,6 +17,7 @@ public class StrongNumber {
             sum+= prod;
             num/= 10;
         }
+
         if( m == sum) {
             System.out.println("Strong number");
         } else{
