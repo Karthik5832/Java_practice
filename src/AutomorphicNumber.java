@@ -11,17 +11,17 @@ public class AutomorphicNumber {
 
         boolean flag = true;
 
-        while(num>0) {
+        while( num > 0) {
 
             if(num%10 != sq%10) {
-                flag=false;
+                flag = false;
                 break;
             }
-            num/=10;
-            sq/=10;
+            num/= 10;
+            sq/= 10;
 
         }
-        if (flag==true) {
+        if (flag == true) {
             System.out.println(m + " is an automorphic number.");
         }
         else {
