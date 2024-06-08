@@ -19,10 +19,10 @@ public class AmstrongNumber {
             int d = num%10;
             int prod = 1;
             for(int i = 1; i <= count; i++){
-                prod*=d;
+                prod *= d;
             }
-            sum+=prod;
-            num/=10;
+            sum += prod;
+            num /= 10;
         }
         if(sum == m){
             System.out.println("It is a Armstrong number");
